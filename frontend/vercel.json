@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "https://ai-developer-refo.onrender.com" },
+    { "source": "/users/(.*)", "destination": "https://ai-developer-refo.onrender.com" },
+    { "source": "/projects/(.*)", "destination": "https://ai-developer-refo.onrender.com" },
+    { "source": "/ai/(.*)", "destination": "https://ai-developer-refo.onrender.com" }
+  ],
+  "redirects": [
+    { "source": "/api", "destination": "https://ai-developer-refo.onrender.com", "permanent": false }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
+}
