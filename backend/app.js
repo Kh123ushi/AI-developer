@@ -26,5 +26,8 @@ app.use("/ai", aiRoutes)
 app.get('/', (req, res) => {
     res.send('Hello World!');
 });
+app.get('/ping', (req, res) => {
+    res.status(200).send('Server is awake');
+});
 
 export default app; 
